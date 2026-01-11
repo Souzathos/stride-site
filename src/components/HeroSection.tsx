@@ -18,27 +18,28 @@ const HeroSection = () => {
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {/* Left big logo */}
         <div
-          className="absolute left-[-180px] top-[110px] h-[520px] w-[520px] opacity-[0.18] blur-[55px]"
+          className="absolute left-[-180px] top-[110px] h-[520px] w-[520px] opacity-[0.25] blur-[55px] "
+          
           style={{
             backgroundImage: "url('/logo_stride.png')",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "contain",
             filter:
-              "brightness(0) saturate(100%) invert(45%) sepia(95%) saturate(5000%) hue-rotate(5deg)",
+              "brightness(0) saturate(100%) invert(45%) sepia(95%) saturate(5000%) hue-rotate(5deg) blur(5px)",
           }}
         />
 
         {/* Right small logo */}
         <div
-          className="absolute right-[-120px] bottom-[120px] h-[360px] w-[360px] opacity-[0.14] blur-[50px]"
+          className="absolute right-[-120px] bottom-[120px] h-[360px] w-[360px] opacity-[0.20] blur-[50px]"
           style={{
             backgroundImage: "url('/logo_stride.png')",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "contain",
             filter:
-              "brightness(0) saturate(100%) invert(45%) sepia(95%) saturate(5000%) hue-rotate(5deg)",
+              "brightness(0) saturate(100%) invert(45%) sepia(95%) saturate(5000%) hue-rotate(5deg) blur(5px)",
           }}
         />
       </div>
@@ -63,9 +64,37 @@ const HeroSection = () => {
       {/* Glowing Orbs */}
       <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-stride-orange/20 rounded-full blur-[120px] animate-pulse-glow" />
       <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-stride-orange/10 rounded-full blur-[100px]" />
-
+      
+      
       {/* Content */}
       <div className="container relative z-10 mx-auto px-6 py-20">
+        {/* Logo central estilo Compass */}
+      <div className="flex justify-center mb-14 animate-fade-in-up">
+        <div className="relative flex items-center gap-5 justify-center">
+
+          {/* Glow atrás */}
+          <div className="absolute inset-0 bg-stride-orange/35 blur-[120px] rounded-full scale-150" />
+
+          {/* Ícone */}
+          <img
+            src="/logo_stride.png"
+            alt="Stride Digital"
+            className="relative h-20 md:h-24 object-contain"
+          />
+
+          {/* Texto */}
+          <div className="relative flex flex-col leading-none text-left">
+            <span className="font-display font-bold text-4xl md:text-5xl tracking-tight text-foreground">
+              STRIDE
+            </span>
+            <span className="mt-1 text-sm md:text-base tracking-[0.3em] text-muted-foreground uppercase">
+              Marketing Digital
+            </span>
+          </div>
+
+        </div>
+      </div>
+
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/80 border border-border mb-8 animate-fade-in-up">
@@ -107,39 +136,6 @@ const HeroSection = () => {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             
-          </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 mt-16 pt-16 border-t border-border/50 animate-fade-in-up animation-delay-400">
-            <div className="text-center">
-              <div className="flex items-center justify-center gap-2 mb-2">
-                <TrendingUp className="w-5 h-5 text-primary" />
-                <span className="font-display font-bold text-3xl md:text-4xl text-foreground">
-                  +300%
-                </span>
-              </div>
-              <p className="text-sm text-muted-foreground">ROI médio</p>
-            </div>
-
-            <div className="text-center">
-              <div className="flex items-center justify-center gap-2 mb-2">
-                <Target className="w-5 h-5 text-primary" />
-                <span className="font-display font-bold text-3xl md:text-4xl text-foreground">
-                  +50
-                </span>
-              </div>
-              <p className="text-sm text-muted-foreground">Clientes ativos</p>
-            </div>
-
-            <div className="text-center">
-              <div className="flex items-center justify-center gap-2 mb-2">
-                <Zap className="w-5 h-5 text-primary" />
-                <span className="font-display font-bold text-3xl md:text-4xl text-foreground">
-                  R$2M+
-                </span>
-              </div>
-              <p className="text-sm text-muted-foreground">Em vendas geradas</p>
-            </div>
           </div>
         </div>
       </div>

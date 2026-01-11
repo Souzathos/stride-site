@@ -4,20 +4,20 @@ const services = [
   {
     icon: Share2,
     title: "Social Media",
-    description: "Gestão estratégica de redes sociais com conteúdo que engaja e converte. Construímos sua presença digital com consistência e resultados.",
+    description: "Gestão estratégica de redes sociais com conteúdo que engaja, posiciona e converte. Construímos sua presença digital com consistência e resultados reais.",
     features: ["Planejamento de conteúdo", "Design profissional", "Análise de métricas", "Gestão de comunidade"]
   },
   {
     icon: Layout,
     title: "Landing Pages",
-    description: "Páginas de alta conversão que transformam visitantes em clientes. Design moderno focado em performance e experiência do usuário.",
-    features: ["Design responsivo", "Otimização para conversão", "A/B Testing", "Carregamento rápido"]
+    description: "Criamos páginas estratégicas que transformam visitantes em clientes. Design moderno, performance máxima e experiência focada em resultados.",
+    features: ["Design responsivo", "Otimização para conversão", "Otimização contínua de conversão (CRO)", "Carregamento rápido"]
   },
   {
     icon: Target,
     title: "Tráfego Pago",
-    description: "Campanhas estratégicas no Meta Ads e Google Ads. Investimento inteligente com foco em retorno e escalabilidade.",
-    features: ["Meta Ads", "Google Ads", "Remarketing", "Análise de ROI"]
+    description: "Transformamos investimento em anúncios em crescimento real para o seu negócio.",
+    features: ["Gestão profissional de Meta Ads e Google Ads", "Estratégias de remarketing para recuperar oportunidades", "Otimização contínua de campanhas", "Análise de ROI e performance em tempo real"]
   }
 ];
 

@@ -3,8 +3,6 @@ import {
   Sparkles,
   Users,
   Megaphone,
-  Workflow,
-  Bot,
   PenLine,
   Presentation,
 } from "lucide-react";
@@ -14,49 +12,37 @@ const deliverables = [
     icon: Search,
     title: "Diagnóstico Estratégico",
     description:
-      "Analisamos seu negócio, mercado e números para encontrar gargalos e oportunidades — decisões baseadas em dados.",
+      "Mapeamos seu negócio, mercado, público e números para identificar gargalos e oportunidades — decisões guiadas por dados, não por achismo.",
   },
   {
     icon: Sparkles,
     title: "Posicionamento e Branding",
     description:
-      "Ajustamos como sua marca é percebida para se tornar a escolha preferida do seu público. Nome, discurso e presença.",
+      "Construímos uma marca forte e desejada. Ajustamos identidade, mensagem e presença para você ser a escolha natural do seu público.",
   },
   {
     icon: Users,
     title: "Aquisição de Clientes e Funil de Vendas",
     description:
-      "Estruturamos campanhas e estratégia para atrair os clientes certos com uma jornada pensada para conversão real.",
+      "Estruturamos a jornada completa do cliente (atração → conversão), com estratégia e ofertas pensadas para gerar vendas previsíveis.",
   },
   {
     icon: Megaphone,
     title: "Gestão de Tráfego Pago",
     description:
-      "Criamos, monitoramos e otimizamos anúncios (Meta/Google etc.) com foco em CAC controlado e retorno previsível.",
-  },
-  {
-    icon: Workflow,
-    title: "Processos Comerciais e Pós-venda",
-    description:
-      "Organizamos sua operação comercial: abordagem, follow-up e retenção — do primeiro contato ao fechamento.",
-  },
-  {
-    icon: Bot,
-    title: "Automações e IA aplicada",
-    description:
-      "Implementamos automações e fluxos inteligentes para ganhar produtividade, aumentar resposta e escalar com previsibilidade.",
+      "Planejamento, execução e otimização de campanhas (Meta/Google) com foco em escala, CAC controlado e ROI mensurável.",
   },
   {
     icon: PenLine,
     title: "Conteúdo e Presença Digital",
     description:
-      "Conteúdo estratégico que fortalece autoridade, aproxima seu público e alimenta seu funil com consistência.",
+      "Conteúdo estratégico para construir autoridade, aumentar confiança e manter sua marca presente no dia a dia do seu público.",
   },
   {
     icon: Presentation,
-    title: "Acompanhamento e Otimização",
+    title: "Acompanhamento e Otimização Contínua",
     description:
-      "Rotina de análise + plano de ação. Ajustes contínuos para manter performance e crescimento mês após mês.",
+      "Rotina de análise + plano de ação. Ajustes e otimizações constantes para manter performance e crescimento mês após mês.",
   },
 ];
 
@@ -86,7 +72,7 @@ export default function DeliverablesSection() {
             />
           </div>
 
-          <h2 className="font-display font-bold text-3xl md:text-5xl text-foreground animate-fade-in-up animation-delay-100 text-black">
+          <h2 className="font-display font-bold text-3xl md:text-5xl animate-fade-in-up animation-delay-100 text-black">
             Estes são os principais entregáveis que geram resultados todos os
             meses na <span className="text-primary">Stride</span>
           </h2>

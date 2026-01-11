@@ -17,7 +17,7 @@ const steps = [
     icon: Play,
     number: "03",
     title: "Execução",
-    description: "Implementamos as campanhas e ações com agilidade e precisão."
+    description: "Implementamos as campanhas e ações com agilidade, precisão e foco em resultados."
   },
   {
     icon: RefreshCw,

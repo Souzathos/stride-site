@@ -21,17 +21,14 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-4">
               <a 
-                href="#" 
-                className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/stridedigital.br/" 
+              className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a 
-                href="#" 
-                className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
+              
               <a 
                 href="#" 
                 className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
@@ -52,7 +49,7 @@ const Footer = () => {
                     className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1 group"
                   >
                     {item}
-                    <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                   
                   </a>
                 </li>
               ))}

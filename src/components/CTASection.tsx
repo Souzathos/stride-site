@@ -78,7 +78,7 @@ const CTASection = () => {
           {/* Trust Elements */}
           <div className="mt-12 pt-12 border-t border-border/30">
             <p className="text-sm text-muted-foreground mb-4">
-              Junte-se a empresas que já estão crescendo com a STRIDE
+              Junte-se a STRIDE para escalar vez mais seu negócio com marketing de performance.
             </p>
             <div className="flex items-center justify-center gap-8 opacity-50">
               {[1, 2, 3, 4, 5].map((i) => (

@@ -71,8 +71,7 @@ const WhyStrideSection = () => {
             </h2>
 
             <p className="text-muted-foreground text-lg mb-8">
-              Não somos uma agência genérica. Somos especialistas em transformar
-              investimento em marketing em crescimento real e mensurável.
+              Aqui, marketing não é sobre likes ou seguidores. É sobre faturamento, escala e resultado.
             </p>
 
             {/* Feature Highlight */}
