@@ -4,7 +4,7 @@ import { ArrowRight, Sparkles } from "lucide-react";
 const CTASection = () => {
   const openWhatsapp = () => {
     window.open(
-      "https://wa.me/5551980881688?text=Ol%C3%A1%2C%20quero%20falar%20com%20a%20Stride",
+      "https://wa.me/5551980881688?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Stride%20e%20quero%20falar%20com%20um%20especialista.",
       "_blank",
       "noopener,noreferrer"
     );
