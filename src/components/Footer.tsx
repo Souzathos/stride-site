@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-24 h-24">
+              <div className="w-20 ">
               <img src="/logo_stride.png" alt="" />
               </div>
               <span className="font-display font-bold text-2xl text-foreground tracking-tight">
