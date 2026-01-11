@@ -1,27 +1,30 @@
-const Header = () => {
+export default function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/70 backdrop-blur-xl">
-      <div className="mx-auto w-full max-w-7xl px-2 py-6 flex items-center justify-start">
-        {/* Logo */}
-        <a href="#hero" className="flex items-center gap-4 group">
-          <img
-            src="/logo_stride.png"
-            alt="Stride Digital"
-            className="h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
-          />
+    <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-black/60 border-b border-white/5">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6">
+        <div className="flex items-center justify-between h-20 sm:h-24">
+          {/* Logo */}
+          <div className="flex items-center gap-2 sm:gap-3">
+            <img
+              src="/logo_stride.png"
+              alt="Stride"
+              className="h-9 sm:h-11 w-auto"
+            />
 
-          <div className="flex flex-col leading-none">
-            <span className="font-display font-bold text-2xl tracking-tight text-foreground">
-              STRIDE
-            </span>
-            <span className="text-sm tracking-widest text-muted-foreground uppercase">
-              Marketing Digital
-            </span>
+            <div className="leading-tight">
+              <span className="block text-white font-bold text-base sm:text-lg tracking-wide">
+                STRIDE
+              </span>
+              <span className="block text-xs sm:text-sm text-white/60 tracking-widest">
+                MARKETING DIGITAL
+              </span>
+            </div>
           </div>
-        </a>
+
+          {/* Espaço para botões / links (se quiser depois) */}
+          <div className="hidden sm:flex items-center gap-3" />
+        </div>
       </div>
     </header>
   );
-};
-
-export default Header;
+}
