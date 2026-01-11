@@ -9,6 +9,7 @@ import ServicesWaveBar from "@/components/ServicesWaveBar";
 import DeliverablesSection from "@/components/DeliverablesSection";
 import CrossRibbons from "@/components/CrossRibbons";
 
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -18,7 +19,7 @@ const Index = () => {
         <section id="hero">
           <HeroSection />
         </section>
-        
+
         <section id="servicos-wavebar">
         <ServicesWaveBar /> 
         </section>
