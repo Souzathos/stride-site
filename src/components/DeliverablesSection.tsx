@@ -22,7 +22,7 @@ const deliverables = [
   },
   {
     icon: Users,
-    title: "Aquisição de Clientes e Funil de Vendas",
+    title: "Aquisição de Clientes",
     description:
       "Estruturamos a jornada completa do cliente (atração → conversão), com estratégia e ofertas pensadas para gerar vendas previsíveis.",
   },
