@@ -105,16 +105,14 @@ const HeroSection = () => {
           </div>
 
           {/* Headline */}
-          <h1 className="font-display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-5xl leading-tight mb-6 animate-fade-in-up animation-delay-100">
-            <span className="text-foreground">Entendemos o que o seu marketing realmente precisa</span>
-            <br />
-            <span className="text-foreground">e transformamos isso em uma estratégia </span>
+          <h1 className="font-display font-bold text-3xl sm:text-lg md:text-lg lg:text-5xl leading-tight mb-6 animate-fade-in-up animation-delay-100">
+            <span className="text-foreground"> Aumentamos o </span>
+            <span className="stride-gradient-text">faturamento </span>
+            <span className="text-foreground">da sua empresa com estratégias de marketing eficientes e escaláveis para o </span>
+            <span className="stride-gradient-text">crescimento </span>
+            <span className="text-foreground">do seu negócio</span>
             
-            <span className="stride-gradient-text">clara, eficiente e escalável </span>
-
-            <span className="text-foreground">para o crescimento do seu negócio</span>
-          </h1>
-
+          </h1> 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in-up animation-delay-200">
              Dê o próximo passo para evoluir sua {" "}
