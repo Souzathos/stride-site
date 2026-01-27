@@ -24,10 +24,6 @@ const PrivacyPolicy: React.FC = () => {
             proteção dos seus dados pessoais, em conformidade com a LGPD (Lei nº
             13.709/2018).
           </p>
-
-          <p className="mt-2 text-sm text-muted-foreground">
-            Última atualização: <span className="font-medium">{lastUpdated}</span>
-          </p>
         </header>
 
         {/* Content */}
