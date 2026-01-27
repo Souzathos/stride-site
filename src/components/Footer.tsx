@@ -1,4 +1,5 @@
-import { Instagram, Linkedin, Mail, ArrowUpRight } from "lucide-react";
+import { Instagram, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -81,7 +82,13 @@ const Footer = () => {
             © 2024 STRIDE. Todos os direitos reservados.
           </p>
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-primary transition-colors">Política de Privacidade</a>
+            <Link
+              to="/politica-de-privacidade"
+              className="hover:text-primary transition-colors"
+            >
+              Política de Privacidade
+            </Link>
+
             <a href="#" className="hover:text-primary transition-colors">Termos de Uso</a>
           </div>
         </div>
